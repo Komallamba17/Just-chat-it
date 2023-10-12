@@ -6,10 +6,10 @@ Dotenv.config();
 
 
 export const pusher = new Pusher({
-   app_id = "1684987",
-   key = "9949f6229dad5d89d720",
-   secret = "9798ffc5c219e85cc8ae",
-    cluster = "ap2",
+   app_id : "1684987",
+   key : "9949f6229dad5d89d720",
+   secret : "9798ffc5c219e85cc8ae",
+    cluster : "ap2",
   useTLS: true,
 });
 
@@ -22,7 +22,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 var corsOptions = {
-  origin: ["https://just-chat-it.web.app","http://localhost:3000","https://3000-Komallamba17-justchat-it-7ne62q3cvdt.ws-us84.gitpod.io"],
+  origin: ["https://just-chat-it.web.app","http://localhost:3000","https://3000-Komallamba17-justchatit-7ne62q3cvdt.ws-us84.gitpod.io"],
   optionsSuccessStatus: 200 // For legacy browser support
 }
   
